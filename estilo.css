@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+}
+
+body {
+    background-color: aliceblue;
+}
+header {
+    border: 0px solid #000;
+    height: 100px;
+    text-align: center;
+    
+    background-size: 100% ;
+    background-position: 20%;
+    
+}
+
+.sec2{
+    border: 0px solid #000;
+    height: 90px;
+    float: left;
+    margin-top: 5px;
+}
+
+.section1{
+        border: 0px solid #000;
+        height: 60px;
+        float: right;
+        margin-left: 70px;
+        margin-right: 10px;
+        margin-top: 25px;
+    
+}
+
+section > label > input {
+    cursor: pointer;
+}
+img {
+    width:20%;
+    height: 20%;
+}
+main {
+    border: 0px solid #000;
+    
+    margin-top: 20px;
+    
+    background-repeat: repeat;
+
+}
+
+form { 
+    background-color: rgb(255, 255, 255);
+}
+footer{
+    border: 2px solid #000;
+    height: 50px;
+    margin-top: 5%;
+}
+
+.Nav {
+    margin-left: 14%;
+    margin-right: 18%;
+    border: 0px solid #000;
+
+}
+#sectmain {
+    margin-left: 16%;
+    margin-right: 18%;
+    border: 2px solid #000;
+    
+    
+}
+
+h1 {
+    font-size: 250%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+legend {
+    margin-left: 40%;
+    
+}
+
+label {
+    margin-left: 5%;
+  
+}
+
+section {
+    text-align: justify;
+    padding: 0.4%;
+}
+
+/*------------------- Botões --------------*/
+#enviar{
+    background-color: rgb(134, 134, 134);
+   margin: 1px solid #000;
+   margin-top: 1.5%;
+    margin-right: 35%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: right;
+    font-size: 15pt;
+    font-weight: bolder;
+    cursor: pointer;
+    border: 0px solid #000;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#voltar {
+    background-color: rgb(134, 134, 134);
+   margin: 1px solid #000;
+   margin-top: 1.5%;
+    margin-left: 35%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float:left;
+    font-size: 15pt;
+    font-weight: bolder;
+    cursor: pointer;
+    border: 0px solid #000;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Para Desktop: -------------------- */
+.col-1 {width: 8,33%;}
+.col-2 {width: 16,66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33,33%;}
+.col-5 {width: 41,6%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58,33%;}
+.col-8 {width: 66,66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83,33%;}
+.col-11 {width: 91,66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile Phones: */
+    [class*="col -"] {
+        width: 100px
+    }
+        nav ul {
+            margin: 0;
+        }
+        
+        nav ul li {
+            margin: 0;
+        }
+        
+        nav ul li a {
+            font-size: 6pt;
+        }
+        
+        aside {
+            height: 100px;
+        }
+        
+        article{
+            float: none;
+            display: block;
+            clear: both;
+        }
+        
+        section {
+            float: none;
+        }
+        
+        footer {
+            display: block;
+            clear: both;
+        }
+        
+        
+        }
+ 
